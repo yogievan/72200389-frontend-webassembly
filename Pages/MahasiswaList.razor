@@ -1,0 +1,64 @@
+@page "/MahasiswaList"
+@inject HttpClient Http
+@using System.Net.Http
+@using System.Net.Http.Json
+
+<PageTitle>Mahasiswa UKDW</PageTitle>
+
+<h1>Mahasiswa UKDW</h1>
+
+<p>This component demonstrates fetching data MAHASISWA from the server.</p>
+
+@if (mhslist == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAMA</th>
+                <th>NIM</th>
+                <th>ALAMAT</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mhs in mhslist)
+            {
+                <tr>
+                    <td>@mhs.id</td>
+                    <td>@mhs.nama</td>
+                    <td>@mhs.nim</td>
+                    <td>@mhs.alamat</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Mahasiswa[]? mhslist;
+
+    protected override async Task OnInitializedAsync()
+    {
+        mhslist = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+    }
+
+    @* MODELING *@
+    public class Mahasiswa
+    {
+        public int id { get; set; }
+
+        public string nama { get; set; }
+
+        public string nim { get; set; }
+
+        public string alamat { get; set; }
+
+        public string email { get; set; }
+
+        public string foto { get; set; }
+    }
+}
