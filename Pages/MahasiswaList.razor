@@ -8,7 +8,16 @@
 <h1>Mahasiswa UKDW</h1>
 
 <p>This component demonstrates fetching data MAHASISWA from the server.</p>
-
+<div class="input-group col-md-3 mb-3">
+    <input type="text" placeholder="Search NIM" class="form-control" 
+    @bind="nimFilter"/>
+    <button class="btn btn-primary" @onclick="FilterNim">CARI</button>
+</div>
+<div class="d-grid gap-2 col-3 mx-1 md-3 mt-3">
+    <a href="AddMahasiswa">
+        <button class="btn btn-primary" type="button">TAMBAH DATA MAHASISWA</button>
+    </a>
+</div>
 @if (mhslist == null)
 {
     <p><em>Loading...</em></p>
@@ -22,6 +31,8 @@ else
                 <th>NAMA</th>
                 <th>NIM</th>
                 <th>ALAMAT</th>
+                <th>EMAIL</th>
+                <th>FOTO</th>
             </tr>
         </thead>
         <tbody>
@@ -32,33 +43,36 @@ else
                     <td>@mhs.nama</td>
                     <td>@mhs.nim</td>
                     <td>@mhs.alamat</td>
+                    <td>@mhs.email</td>
+                    <td>@mhs.foto</td>
                 </tr>
             }
-        </tbody>
+        </tbody> 
     </table>
 }
 
 @code {
-    private Mahasiswa[]? mhslist;
+    protected List<Mahasiswa> mhslist = new();
+    protected List<Mahasiswa> searchUserData = new();
 
     protected override async Task OnInitializedAsync()
     {
-        mhslist = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+        mhslist = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+        searchUserData = mhslist;
     }
 
-    @* MODELING *@
-    public class Mahasiswa
+    private String nimFilter { get; set; } = String.Empty;
+    private async Task FilterNim()
     {
-        public int id { get; set; }
-
-        public string nama { get; set; }
-
-        public string nim { get; set; }
-
-        public string alamat { get; set; }
-
-        public string email { get; set; }
-
-        public string foto { get; set; }
-    }
+        if (!string.IsNullOrEmpty(nimFilter))
+        {
+            mhslist = searchUserData
+                .Where(x => x.nim.IndexOf(nimFilter, StringComparison.OrdinalIgnoreCase) != -1)
+                .ToList();
+        }
+        else
+        {
+            mhslist = searchUserData;
+        }
+    } 
 }
