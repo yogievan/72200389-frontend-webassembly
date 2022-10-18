@@ -1,0 +1,67 @@
+@page "/UpdateMahasiswa" 
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Update Mahasiswa UKDW</PageTitle>
+<h3>Update Data Mahasiswa</h3>
+<div>
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">NAMA MAHASISWA</span>
+        <input class="form-control" placeholder="Nama Mahasiswa" @bind ="@mhs.nama">
+    </div>
+
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">NIM</span>
+        <input class="form-control" placeholder="NIM" @bind ="@mhs.nim">
+    </div>
+
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">ADDRESS</span>
+        <input class="form-control" placeholder="Alamat" @bind ="@mhs.alamat">
+    </div>
+
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">EMAIL</span>
+        <input class="form-control" placeholder="name.name@email.com" @bind ="@mhs.email">
+    </div>
+
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">CHOOSE FILE</span>
+        <input class="form-control" placeholder="Choose File" @bind ="@mhs.foto">
+    </div>
+
+    <div class="input-group flex-nowrap mt-3">
+        <span class="input-group-text" id="addon-wrapping">NIM PROGMOB</span>
+        <input class="form-control" placeholder="NIM PROGMOB" @bind ="@mhs.nimProgmob">
+    </div>
+    
+    <div class="mt-2">
+        <button type="button" class="btn btn-primary" @onclick="Save">SAVE</button>
+        <a href="MahasiswaList">
+            <button type="button" class="btn btn-danger">Back</button>
+        </a>
+    </div>
+    </div>
+@code
+{
+    [Parameter]
+    public int id{ get; set; }
+    Mahasiswa mhs = new Mahasiswa();
+    protected override async Task OnInitializedAsync()
+    {
+        mhs = await Http.GetFromJsonAsync<Mahasiswa>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177/"+ id);
+        }
+        protected async Task Save()
+        {
+            var response = await Http.PutAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/update/" + id, @mhs);
+            bool personResponse = await response.Content.ReadFromJsonAsync<bool>();
+                if (personResponse)
+                {
+                    await JsRuntime.InvokeVoidAsync("alert", "Updated Successfully!");
+                    NavigationManager.NavigateTo("MahasiswaList");
+                }
+        }
+}
