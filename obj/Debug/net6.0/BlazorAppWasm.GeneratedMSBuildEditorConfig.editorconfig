@@ -22,16 +22,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/AddMahasiswa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTWFoYXNpc3dhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/applications/Frontend/BlazorAppWasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/applications/Frontend/BlazorAppWasm/Pages/DeleteMahasiswa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlTWFoYXNpc3dhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/applications/Frontend/BlazorAppWasm/Pages/EmployeeList.razor]
@@ -46,12 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/UpdateMahasiswa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlTWFoYXNpc3dhLnJhem9y
+[C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaUpdate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhVXBkYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/applications/Frontend/BlazorAppWasm/Shared/SurveyPrompt.razor]

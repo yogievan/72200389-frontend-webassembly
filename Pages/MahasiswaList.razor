@@ -1,29 +1,22 @@
 @page "/MahasiswaList"
-@inject HttpClient Http
 @using System.Net.Http
 @using System.Net.Http.Json
+@inject HttpClient Http
+@inject NavigationManager UriHelper
 
-<PageTitle>Mahasiswa UKDW</PageTitle>
+<PageTitle>List Mahasiswa</PageTitle>
 
-<h1>Mahasiswa UKDW</h1>
+<h1>Mahasiswa SI UKDW</h1>
 
-<p>This component demonstrates fetching data MAHASISWA from the server.</p>
-<div class="input-group col-md-3 mb-3">
-    <input type="text" placeholder="Search NIM" class="form-control" 
-    @bind="nimFilter"/>
-    <button class="btn btn-primary" @onclick="FilterNim">CARI</button>
-</div>
-<div class="d-grid gap-2 col-3 mx-1 md-3 mt-3">
-    <a href="AddMahasiswa">
-        <button class="btn btn-primary" type="button">TAMBAH DATA MAHASISWA</button>
-    </a>
-</div>
-@if (mhslist == null)
+<p>This component demonstrates fetching data Mahasiswa from the server.</p>
+
+@if (mhs == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
+    <NavLink class="btn btn-primary" href="/mahasiswa/tambah">Tambah</NavLink>
     <table class="table">
         <thead>
             <tr>
@@ -37,52 +30,30 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var mhs in mhslist)
+            @foreach (var mh in mhs)
             {
                 <tr>
-                    <td>@mhs.id</td>
-                    <td>@mhs.nama</td>
-                    <td>@mhs.nim</td>
-                    <td>@mhs.alamat</td>
-                    <td>@mhs.email</td>
-                    <td>@mhs.foto</td>
+                    <td>@mh.id</td>
+                    <td>@mh.nama</td>
+                    <td>@mh.nim</td>
+                    <td>@mh.alamat</td>
+                    <td>@mh.email</td>
+                    <td>@mh.foto</td>
                     <td>
-                        <a href="UpdateMahasiswa">
-                            <button class="btn btn-warning" type="button">UPDATE</button>
-                        </a>
-                        <br>
-                        <a href="DeleteMahasiswa">
-                            <button class="btn btn-danger mt-3" type="button">DELETE</button>
-                        </a>
+                        <NavLink class="btn btn-success" href='@("/mahasiswa/ubah/72200389/"+mh.id+"/"+mh.nim)'>Ubah</NavLink>
                     </td>
                 </tr>
             }
-        </tbody> 
+        </tbody>
     </table>
 }
 
 @code {
-    protected List<Mahasiswa> mhslist = new();
-    protected List<Mahasiswa> searchUserData = new();
+    private Mahasiswa[]? mhs;
 
     protected override async Task OnInitializedAsync()
     {
-        mhslist = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
-        searchUserData = mhslist;
+        mhs = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72200389");
     }
 
-    private String nimFilter { get; set; } = String.Empty;
-    private async Task FilterNim()
-    {
-        if (!string.IsNullOrEmpty(nimFilter))
-        {
-            mhslist = searchUserData
-                .Where(x => x.nim.IndexOf(nimFilter, StringComparison.OrdinalIgnoreCase) != -1)
-                .ToList();
-        }
-        else
-        {
-            mhslist = searchUserData;
-        }
-    } 
 }

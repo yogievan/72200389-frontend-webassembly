@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 public class Mahasiswa
     {
         public int id { get; set; }
@@ -11,5 +13,5 @@ public class Mahasiswa
         public string? email { get; set; }
 
         public string? foto { get; set; }
-        public string? nimProgmob { get; set; }
+        public int nim_progmob { get; set; }
     }
