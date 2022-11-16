@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj": {
+                "projectPath": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -75,6 +79,64 @@
       "runtimes": {
         "browser-wasm": {
           "#import": []
+        }
+      }
+    },
+    "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj",
+        "projectName": "ComponentLibrary",
+        "projectPath": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

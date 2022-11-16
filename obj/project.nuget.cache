@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BDNKZIpgpbZGlANrfHnaERdC8CecPxW2GxcLx3XejwgOc8wrqOWRlx0HhEhTQKRFcp9o1S5fpa+DTgTkU+BPnw==",
+  "dgSpecHash": "T85k86TP9jDYzo8VFgaNyY6n5Bwl2TxgDy4ZF8N0vpWukOSSlkwLmTw60a61kDNAVggY2QMurDmqX4SXrse/3g==",
   "success": true,
   "projectFilePath": "C:\\applications\\Frontend\\BlazorAppWasm\\BlazorAppWasm.csproj",
   "expectedPackageFiles": [

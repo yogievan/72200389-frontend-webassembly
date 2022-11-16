@@ -1,17 +1,36 @@
 {
   "Version": 1,
-  "Hash": "3VQz3C18Wv6Iif0DTt4rUOCQ5wbgx3dhicRkhwDTqrg=",
+  "Hash": "5MMDzYEZzGAieMMsYG0M2Bu1a/niTqiAw5tNNv02rIc=",
   "Source": "BlazorAppWasm",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj",
+      "Version": 2,
+      "Source": "ComponentLibrary",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "BlazorAppWasm\\wwwroot",
       "Source": "BlazorAppWasm",
       "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\wwwroot\\",
       "BasePath": "/",
+      "Pattern": "**"
+    },
+    {
+      "Name": "ComponentLibrary\\wwwroot",
+      "Source": "ComponentLibrary",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
       "Pattern": "**"
     }
   ],
@@ -83,6 +102,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\BlazorAppWasm.pdb"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll",
+      "SourceId": "BlazorAppWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ComponentLibrary.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\bin\\Debug\\net6.0\\ComponentLibrary.dll"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb",
+      "SourceId": "BlazorAppWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ComponentLibrary.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\bin\\Debug\\net6.0\\ComponentLibrary.pdb"
     },
     {
       "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.0.zhggd59oxx.js",
@@ -3417,6 +3470,74 @@
       "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "ComponentLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\additionalStyles.css",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "additionalStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\additionalStyles.css"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\background.png",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\lib\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
+    {
       "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\obj\\Debug\\net6.0\\build-gz\\+ankjWGS.gz",
       "SourceId": "BlazorAppWasm",
       "SourceType": "Computed",
@@ -4010,6 +4131,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\obj\\Debug\\net6.0\\build-gz\\bItG+gVo.gz",
+      "SourceId": "BlazorAppWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ComponentLibrary.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb"
     },
     {
       "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\obj\\Debug\\net6.0\\build-gz\\bjZOodOa.gz",
@@ -6781,6 +6919,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\obj\\Debug\\net6.0\\build-gz\\ZWgl9bdq.gz",
+      "SourceId": "BlazorAppWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ComponentLibrary.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\applications\\Frontend\\BlazorAppWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll"
     },
     {
       "Identity": "C:\\applications\\Frontend\\BlazorAppWasm\\obj\\Debug\\net6.0\\build-gz\\zzmovm4A.gz",
