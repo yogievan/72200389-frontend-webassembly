@@ -11,85 +11,85 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorAppWasm
 build_property.RootNamespace = BlazorAppWasm
-build_property.ProjectDir = C:\applications\Frontend\BlazorAppWasm\
+build_property.ProjectDir = c:\applications\Frontend\BlazorAppWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\applications\Frontend\BlazorAppWasm
+build_property.MSBuildProjectDirectory = c:\applications\Frontend\BlazorAppWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/applications/Frontend/BlazorAppWasm/App.razor]
+[c:/applications/Frontend/BlazorAppWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/ExtraStyles.razor]
+[c:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/ExtraStyles.razor]
 build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcRXh0cmFTdHlsZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/_Imports.razor]
+[c:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcX0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent1.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent1.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent2.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent2.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent3.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/ConsumeComponent3.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/Counter.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/EmployeeList.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/EmployeeList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/FetchData.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/Index.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaAdd.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhQWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaList.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaUpdate.razor]
+[c:/applications/Frontend/BlazorAppWasm/Pages/MahasiswaUpdate.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhVXBkYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Shared/MyNavMenu.razor]
+[c:/applications/Frontend/BlazorAppWasm/Shared/MyNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15TmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/Shared/SurveyPrompt.razor]
+[c:/applications/Frontend/BlazorAppWasm/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/_Imports.razor]
+[c:/applications/Frontend/BlazorAppWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/Component1.razor]
+[c:/applications/Frontend/BlazorAppWasm/lib/ComponentLibrary/Component1.razor]
 build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcQ29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-55vjyypwo2
 
-[C:/applications/Frontend/BlazorAppWasm/Shared/MainLayout.razor]
+[c:/applications/Frontend/BlazorAppWasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xtm1pvsfs6
 
-[C:/applications/Frontend/BlazorAppWasm/Shared/NavMenu.razor]
+[c:/applications/Frontend/BlazorAppWasm/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kyq7kmqhu4
