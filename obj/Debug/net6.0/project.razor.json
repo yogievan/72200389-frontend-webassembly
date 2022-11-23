@@ -41,87 +41,101 @@
         }
       },
       {
-        "HashCode": 1343521326,
+        "HashCode": -1148009905,
         "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.Pages.MahasiswaUpdate",
+        "Name": "BlazorAppWasm.App",
         "AssemblyName": "BlazorAppWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MahasiswaUpdate"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "nim_progmob",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "nim_progmob"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "nim",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "nim"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.Pages.MahasiswaUpdate"
+          "Common.TypeName": "BlazorAppWasm.App"
         }
       },
       {
-        "HashCode": -1671672482,
+        "HashCode": 992726317,
         "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.Pages.MahasiswaUpdate",
+        "Name": "BlazorAppWasm.App",
         "AssemblyName": "BlazorAppWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorAppWasm.Pages.MahasiswaUpdate"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "nim_progmob",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "nim_progmob"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "nim",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "nim"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
+            "TagName": "BlazorAppWasm.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.Pages.MahasiswaUpdate",
+          "Common.TypeName": "BlazorAppWasm.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1371117651,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.lib.ComponentLibrary.ExtraStyles",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ExtraStyles"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.lib.ComponentLibrary.ExtraStyles"
+        }
+      },
+      {
+        "HashCode": -160610185,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.lib.ComponentLibrary.ExtraStyles",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppWasm.lib.ComponentLibrary.ExtraStyles"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.lib.ComponentLibrary.ExtraStyles",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 373983448,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.lib.ComponentLibrary.Component1",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Component1"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.lib.ComponentLibrary.Component1"
+        }
+      },
+      {
+        "HashCode": -554984113,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.lib.ComponentLibrary.Component1",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppWasm.lib.ComponentLibrary.Component1"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.lib.ComponentLibrary.Component1",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -423,35 +437,87 @@
         }
       },
       {
-        "HashCode": -1148009905,
+        "HashCode": 1343521326,
         "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.App",
+        "Name": "BlazorAppWasm.Pages.MahasiswaUpdate",
         "AssemblyName": "BlazorAppWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "MahasiswaUpdate"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "nim_progmob",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "nim_progmob"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "nim",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "nim"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.App"
+          "Common.TypeName": "BlazorAppWasm.Pages.MahasiswaUpdate"
         }
       },
       {
-        "HashCode": 992726317,
+        "HashCode": -1671672482,
         "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.App",
+        "Name": "BlazorAppWasm.Pages.MahasiswaUpdate",
         "AssemblyName": "BlazorAppWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorAppWasm.App"
+            "TagName": "BlazorAppWasm.Pages.MahasiswaUpdate"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "nim_progmob",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "nim_progmob"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "nim",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "nim"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.App",
+          "Common.TypeName": "BlazorAppWasm.Pages.MahasiswaUpdate",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -538,6 +604,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorAppWasm.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 590721250,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.Shared.NavMenu",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1861475766,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppWasm.Shared.NavMenu",
+        "AssemblyName": "BlazorAppWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppWasm.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppWasm.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -634,105 +733,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "BlazorAppWasm.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 590721250,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.Shared.NavMenu",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1861475766,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppWasm.Shared.NavMenu",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppWasm.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppWasm.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1206922910,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.ExtraStyles",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ExtraStyles"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.ExtraStyles"
-        }
-      },
-      {
-        "HashCode": 1364497388,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.ExtraStyles",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ComponentLibrary.ExtraStyles"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.ExtraStyles",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1532147644,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.Component1",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Component1"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.Component1"
-        }
-      },
-      {
-        "HashCode": 1136233110,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.Component1",
-        "AssemblyName": "BlazorAppWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ComponentLibrary.Component1"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.Component1",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
