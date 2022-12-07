@@ -54,6 +54,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[6.1.2, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.12.6, )"
             }
           },
           "imports": [
