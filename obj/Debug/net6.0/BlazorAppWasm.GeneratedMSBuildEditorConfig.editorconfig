@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/applications/Frontend/BlazorAppWasm/Pages/CultureExample1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VsdHVyZUV4YW1wbGUxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/applications/Frontend/BlazorAppWasm/Pages/CultureExample2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VsdHVyZUV4YW1wbGUyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/applications/Frontend/BlazorAppWasm/Pages/EmployeeList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
